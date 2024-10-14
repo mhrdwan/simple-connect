@@ -2,7 +2,7 @@ import React from 'react';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { useAccount } from 'wagmi';
 import { Wallet, Link, AlertCircle, CheckCircle, XCircle } from 'lucide-react';
-import './App.css'; // Tambahkan CSS eksternal
+import './App.css'; 
 
 const App = () => {
   const { address, isConnected } = useAccount();
